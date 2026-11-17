@@ -1,0 +1,34 @@
+package usb;
+import java.util.Date;
+/**
+ * 
+ * @author Palak Barua
+ *
+ * @version 1.0 2026-11-13 Initial implementation
+ *
+ *
+ * @since 1.0
+ */
+public class ManageKey {
+
+	private String oTP;
+	private String encryptKey;
+	private Boolean connectYN = null;
+	
+	private static String timeLog(connectYN) {
+		Date today = new Date();
+		if (connectYN == true) {
+			return today;
+		}
+		else if (connectYN == false) {
+			return today;
+		}
+		else {
+			return;
+		}
+	}
+		public static String displayTime(connectYN) {
+			System.out.println(today);
+		}
+
+	
