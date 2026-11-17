@@ -1,0 +1,29 @@
+
+package usb;
+
+
+/**
+ * 
+ * @author paulmizzi
+ *
+ * @version 1.0 2026-11-13 Initial implementation
+ *
+ *
+ * @since 1.0
+ */
+public class Key
+    {
+    private String oTP;
+    private String encryptKey;
+    
+    public static String newoTP(oTP, encryptKey) {
+    	for (int i = 0; i < encryptKey; i++) {
+    		oTP = (oTP + encryptKey);
+    	}
+    	return oTP;
+    }
+    
+    public static void connectDevice() {
+    	
+    }
+    }
