@@ -1,0 +1,51 @@
+
+package usb;
+
+
+/**
+ * 
+ * @author paulmizzi
+ *
+ * @version 1.0 2026-11-13 Initial implementation
+ *
+ *
+ * @since 1.0
+ */
+public class User
+    {
+    private String username;
+    private String password;
+    
+    /**
+     * @param u username String
+     * @param p password String
+     *
+     * @since 1.0
+     */
+    public User(String u, String p) {
+        this.username = u;
+        this.password = p;
+    }
+    
+    /**
+     * 
+     * @return instance username
+     *
+     * @since 1.0
+     */
+    public String getUsername() {
+        return this.username;
+    }
+    
+    /**
+     * 
+     * @return instance password
+     *
+     * @since 1.0
+     */
+    public String getPassword() {
+        return this.password;
+    }
+    
+    }
+   // end class User
